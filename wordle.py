@@ -1,3 +1,20 @@
+###
+get input
+del opp ordet i index
+dagens ord definerer et set med bokstaver
+While
+    Alle input-bokstavene settes som rød. 
+    loop over alle 5 bokstavene:
+        sjekk om input-bokstav er i dette settet
+        Hvis ja: endre farge til Gul
+        sjekk om input-bokstav har samme index som dagens ord
+        Hvis ja: Endre farge til grønn
+    ...
+    Hvis alle bokstavene er grønn: er spillet over.
+    Hvis ikke & antall forsøk er lik 0: er spillet over
+
+
+###
 import json
 import random
 import math
