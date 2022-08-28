@@ -1,4 +1,4 @@
-###
+"""
 get input
 del opp ordet i index
 dagens ord definerer et set med bokstaver
@@ -12,9 +12,8 @@ While
     ...
     Hvis alle bokstavene er grønn: er spillet over.
     Hvis ikke & antall forsøk er lik 0: er spillet over
+"""
 
-
-###
 import json
 import random
 import math
